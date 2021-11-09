@@ -4,6 +4,6 @@ const auto = document.getElementById("auto");
 
 for(let a = 0; a <Learners.length; a++){
 
-        auto.innerHTML += "<p>" + Learners [a] + "</p>";
+        auto.innerHTML += "<hr>" + Learners [a] + "</hr>";
 
 }
