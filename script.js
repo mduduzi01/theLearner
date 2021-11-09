@@ -17,3 +17,13 @@ for(let a = 0; a <Learners.length; a++){
         text.innerHTML += "<li>" + student [a] + "</li>";
 
 }
+
+var person = ["Mduduzi","Kagisho","Lucky","Sophie","Precious","Selina","Happy","Andisiwe","Khumbulani","Mmapaseka","Sithembiso","Ntombela","Wandile","Vusimuzi","Nkosiphendule"];
+
+var I = document.getElementById("I");
+
+for(let a = 0; a <person.length; a++){
+
+        I.innerHTML += "<li>" + person [a] + "</li>";
+
+}
